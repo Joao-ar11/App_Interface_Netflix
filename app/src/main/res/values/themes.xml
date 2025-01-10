@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.InterfaceNetflix" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.InterfaceNetflix" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primaria</item>
+        <item name="colorPrimaryDark">@color/primaria_variacao</item>
+        <item name="colorOnPrimary">@color/branco</item>
+        <item name="colorSecondary">@color/secundaria</item>
+        <item name="colorSecondaryVariant">@color/secundaria</item>
+        <item name="colorOnSecondary">@color/preto</item>
+        <item name="android:windowBackground">@color/fundo</item>
+    </style>
 </resources>
